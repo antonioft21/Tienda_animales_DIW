@@ -1,0 +1,48 @@
+#logo {
+    max-width: 75px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    width: 100%;
+    border-color: rgb(200 234 115);
+}
+
+#menu ul {
+    list-style: none;
+    display: flex;
+}
+
+#menu li {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: rgb(0 0 9);
+}
+#bienvenida{
+    text-align: center;
+}
+
+#promo {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+#articulos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+#articulos article{
+    border-style: ridge;
+    text-align: center;
+}
+#articulos img{
+    max-width: 150px;
+}
