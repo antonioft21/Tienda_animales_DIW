@@ -1,30 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="png/jpg" href="./assets/logo.png">
     <link rel="stylesheet" href="style.css">
     <title>Página principal</title>
 </head>
+
 <body>
     <header>
-    <nav id="menu">
-        <span>
-            <a href="#"><img src="./assets/logo.png" alt="Logo de la tienda" id="logo"></a>
+        <span id="redes-top">
+            <p>Teléfono de contacto: 932 32 34 23 / 657 53 54 56</p>
+            <div id="img-redes">
+                <a href="#"><img src="./assets/twitter-icon.png" alt="Imagen de twitter"></a>
+                <a href="#"><img src="./assets/facebook-icon.png" alt="Imagen de facebook"></a>
+                <a href="#"><img src="./assets/instagram-icon.png" alt="Imagen de instagram"></a>
+            </div>
         </span>
+        <nav id="menu">
+            <span>
+                <a href="./index.html"><img src="./assets/logo.png" alt="Logo de la tienda" id="logo"></a>
+            </span>
 
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./pages/tienda.html">Tienda</a></li>
-            <li><a href="./pages/blog.html">Blog</a></li>
-        </ul>
-    </nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./pages/tienda.html">Tienda</a></li>
+                <li><a href="./pages/blog.html">Blog</a></li>
+            </ul>
+        </nav>
     </header>
     <h1 id="bienvenida">¡Bienvenido a la web!</h1>
     <span id="promo">
         <img src="./assets/promo.jpg" alt="Imagen sobre promoción de la tienda">
     </span>
+    <div>
+        <a href="#pop-up" class="boton" >Suscribete a nuestra Newsletter</a>
+    </div>
+    <div id="pop-up">
+        <form action="#">
+            <label for="correo">
+                <input type="text" name="correo" placeholder="Correo electrónico">
+            </label>
+            <label for="enviar">
+                <button type="button" value="enviar">Suscribirme</button>
+            </label>
+        </form>
+    </div>
     <hr>
     <h2 id="letrero">¡Productos recomendados!</h2>
     <div id="articulos">
@@ -49,15 +73,34 @@
             <p>Precio: 15.99€</p>
         </article>
     </div>
+    <div id="contacto">
+        <form action="#">
+            <fieldset>
+                <legend>Contacto</legend>
+                <label for="Nombre">
+                    <input type="text" name="nombre" placeholder="Nombre">
+                </label>
+                <label for="Apellidos">
+                    <input type="text" name="apellidos" placeholder="Apellidos">
+                </label>
+                <label for="Correo">
+                    <input type="text" name="Correo" placeholder="Correo electrónico">
+                </label>
+                <label for="fecha-nacimiento">
+                    <input type="date" name="fecha-nacimiento">
+                </label>
+                <label for="enviar">
+                    <input type="button" value="Enviar" style="display: flex;justify-content: center;">
+                </label>
+            </fieldset>
+        </form>
+    </div>
 </body>
 <footer>
     <span id="redes">
-        <a href="#"><img
-                src="./assets/facebook-icon.png" alt="Icono de Facebook"></a>
-        <a href="#"><img
-                src="./assets/twitter-icon.png" alt="Icono de Twitter"></a>
-        <a href="#"><img 
-                src="./assets/instagram-icon.png" alt="Icono de Instagram"></a>
+        <a href="#"><img src="./assets/facebook-icon.png" alt="Icono de Facebook"></a>
+        <a href="#"><img src="./assets/twitter-icon.png" alt="Icono de Twitter"></a>
+        <a href="#"><img src="./assets/instagram-icon.png" alt="Icono de Instagram"></a>
     </span>
     <ul>
         <li>Donde estamos</li>
@@ -65,4 +108,5 @@
         <li>Preguntas frecuentes</li>
     </ul>
 </footer>
+
 </html>

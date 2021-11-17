@@ -1,6 +1,7 @@
-body{
+body {
     margin: 0;
 }
+
 #logo {
     max-width: 75px;
     margin: 10px;
@@ -29,7 +30,8 @@ body{
     text-decoration: none;
     color: rgb(0 0 9);
 }
-#bienvenida{
+
+#bienvenida {
     text-align: center;
 }
 
@@ -37,106 +39,194 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 60px;
-    margin-bottom:40px;
+    margin-bottom: 40px;
 }
-#letrero{
+
+#letrero {
     text-align: center;
 }
-#articulos{
+
+#articulos {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 50px;
+    margin: 50px;
+    border-style: groove;
 }
-#articulos article{
+
+#articulos article {
     border-style: ridge;
     text-align: center;
+    margin: 20px;
 }
-#articulos img{
+
+#articulos img {
     max-width: 150px;
 }
-footer{
-    background-color:rgb(200 234 115) ;
+
+footer {
+    background-color: rgb(200 234 115);
     display: flex;
     justify-content: space-between;
     bottom: 0;
     position: relative;
     width: 100%;
 }
-#redes{
+
+#redes {
     display: flex;
     align-items: center;
     margin-left: 50px
 }
-#redes a{
+
+#redes a {
     margin: 10px;
 }
-footer img{
+
+footer img {
     max-width: 45px;
+
 }
-footer ul{
-    list-style:none;
+
+footer ul {
+    list-style: none;
     margin-right: 50px;
 }
-#tienda{
+
+#contacto {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#contacto input {
+    display: flex;
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+}
+
+#tienda {
     display: flex;
     text-align: center;
     margin: 70px;
     border-style: solid;
-    border-color:rgb(200 234 115) ;
-    flex-wrap:wrap;
+    border-color: rgb(200 234 115);
+    flex-wrap: wrap;
     justify-content: center;
 }
-#tienda a{
+
+#tienda a {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-#tienda article{
+
+#tienda article {
     border-style: groove;
     width: 700px;
     margin: 50px;
 }
-#tienda img{
+
+#tienda img {
     max-width: 250px;
-}#ver-mas{
+}
+
+#ver-mas {
     margin-bottom: 10px;
 }
-#pos-productos{
+
+#pos-productos {
     display: flex;
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-#productos{
+
+#productos {
     text-align: center;
     max-width: 1000px;
     border-style: groove;
     margin-bottom: 70px;
 }
-#productos img{
+
+#productos img {
     max-width: 450px;
 }
-#comprar{
+
+#comprar {
     margin-bottom: 10px;
 }
-#blog{
+
+#blog {
     display: flex;
     text-align: center;
     margin: 70px;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
-#blog article{
+
+#blog article {
     border-style: solid;
     max-width: 500px;
     margin: 100px;
 }
-#blog img{
+
+#blog img {
     max-width: 250px;
+    margin: 15px;
 
 }
-@media (max-width:600px){
-    #menu:after{
-        
+
+#redes-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(200 234 115);
+}
+
+#img-redes img {
+    max-width: 20px;
+    right: 0;
+}
+
+#form-newsletter {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#form-newsletter label {
+    margin: 10px;
+}
+#boton{
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #06D85F;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+
+}
+#pop-up{
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+@media (max-width:600px) {
+    #menu {
+        background-color: #fff;
+        box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+        position: fixed;
+        width: 100%;
+        z-index: 3;
+        transform: rotate(45deg);
+        transform: rotate(-45deg);
     }
-      
+
+}
