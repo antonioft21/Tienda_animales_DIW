@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="png/jpg" href="../assets/logo.png">
     <link rel="stylesheet" href="../style.css">
-    <title>Pienso para gatos Brekkies</title>
+    <title>Juguetes para perros</title>
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <span id="redes-top">
             <p>Teléfono de contacto: 932 32 34 23 / 657 53 54 56</p>
             <div id="img-redes">
@@ -21,15 +21,16 @@
             </div>
         </span>
         <nav id="menu">
-            <span>
-                <a href="../index.html"><img src="../assets/logo.png" alt="Logo de la tienda" id="logo"></a>
-            </span>
-
-            <ul>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="tienda.html">Tienda</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <li><a href="./tienda.html">Tienda</a></li>
+                <li><a href="./blog.html">Blog</a></li>
             </ul>
+            <span>
+                <a href="../index.html" class="logo"><img src="../assets/logo.png" alt="Logo de la tienda" id="logo"></a>
+            </span>
         </nav>
     </header>
     <div id="pos-productos">

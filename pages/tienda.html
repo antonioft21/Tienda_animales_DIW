@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="png/jpg" href="../assets/logo.png">
     <link rel="stylesheet" href="../style.css">
-    <title>Página principal</title>
+    <title>Tienda</title>
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <span id="redes-top">
             <p>Teléfono de contacto: 932 32 34 23 / 657 53 54 56</p>
             <div id="img-redes">
@@ -21,15 +21,16 @@
             </div>
         </span>
         <nav id="menu">
-            <span>
-                <a href="../index.html"><img src="../assets/logo.png" alt="Logo de la tienda" id="logo"></a>
-            </span>
-
-            <ul>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="tienda.html">Tienda</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <li><a href="../pages/tienda.html">Tienda</a></li>
+                <li><a href="../pages/blog.html">Blog</a></li>
             </ul>
+            <span>
+                <a href="../index.html" class="logo"><img src="../assets/logo.png" alt="Logo de la tienda" id="logo"></a>
+            </span>
         </nav>
     </header>
     <h1 id="letrero">¡Bienvenido a nuestra tienda!</h1>
@@ -39,24 +40,41 @@
             <img src="../assets/pienso-gatos.jpg" alt="Imagen de pienso para gatos">
             <p>Precio: 7.99€</p>
             <a href="./pienso-gatos.html"><button type="submit" value="ir" id="ver-mas">Ver más</button></a>
+            <p>Cereales (10% trigo), carnes y subproductos animales (4% pollo deshidratado, 4% pavo deshidratado, 
+                1% jamón deshidratado en el relleno), subproductos de origen vegetal, extractos de proteínas vegetales, 
+                aceites y grasas (fuente de ácidos grasos esenciales), verduras (2% guisantes deshidratados, 0,05% zanahorias 
+                deshidratadas), sustancias minerales. 67% croquetas rellenas, con 10% de relleno con jamón</p>
         </article>
         <article>
             <h2>Pienso para perros</h2>
             <img src="../assets/pienso-perro.jpg" alt="Imagen de pienso para perros">
             <p>Precio: 12.99€</p>
             <a href="./pienso-perros.html"><button type="submit" value="ir" id="ver-mas">Ver más</button></a>
+            <p>Pollo (18%) arroz (10%) maíz entero (8%) trigo integral (7%) proteínas deshidratadas de ave grasa de origen animal 
+                proteína de maíz guisantes deshidratados (6%) proteínas deshidratadas de cerdo cebada integral (4%) harina de maíz 
+                proteínas animales hidrolizadas proteínas deshidratadas de buey pulpa de remolacha proteína de soja sustancias minerales 
+                aceite de pescado inulina (0,7%) zanahoria deshidratada (0,5%, equivalente a un 4% de zanahoria fresca) membrana de huevo 
+                (fuente de colágeno, 0,01%).</p>
         </article>
         <article>
             <h2>Pack juguetes para perros</h2>
             <img src="../assets/juguetes-perros.jpg" alt="Pack de juguetes para perros">
             <p>Precio: 19.99€</p>
             <a href="./juguete.perro.html"><button type="submit" value="ir" id="ver-mas">Ver más</button></a>
+            <p>MÁS POPULAR Y SUPER VALOR: cada conjunto incluye jirafa, cebra, ardilla (juguetes chirriantes sin relleno) + donut y pato 
+                (juguetes chirriantes rellenos) y viene con una bolsa de almacenamiento. Estos personajes más populares pueden llamar la 
+                atención de tu perro. El sonido chirriante satisface el deseo de cazar animales y reduce las posibilidades de destruir su 
+                sofá o cantero.</p>
         </article>
         <article>
             <h2>Pack juguetes para gatos</h2>
             <img src="../assets/juguetes-gatos.jpg" alt="Pack de juguetes para gatos">
             <p>Precio: 15.99€</p>
             <a href="./jueguete-gatos.html"><button type="submit" value="ir" id="ver-mas">Ver más</button></a>
+            <p>PAQUETE DE VALOR, EL JUGUETE FAVORITO DE TU GATO: A los gatos les gustan los juguetes con plumas, ¡están locos por perseguir 
+                juegos ! El juego de juguetes de plumas Toozey de 16 piezas contiene 2 juguetes de caña de pescar, 7 juguetes de plumas, 5 
+                juguetes de gusanos, 1 juguete de pez y 1 varita para gatos. Cuando hace frío afuera y no puede jugar en los jardines, 
+                puede brindarle a su gato horas de diversión todos los días.</p>
         </article>
     </div>
 </body>
